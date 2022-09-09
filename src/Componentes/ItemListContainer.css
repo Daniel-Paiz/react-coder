@@ -1,0 +1,11 @@
+.titulo__h1 {
+    text-align: center;
+    font-size: 42px;
+    justify-content: center;
+    text-shadow: 11px 7px 4px rgba(0, 0, 0, 0.8);
+}
+.h2__index {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+}

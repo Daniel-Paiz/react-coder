@@ -1,11 +1,10 @@
-// import logo from './logo.svg';
 import './App.css';
-import NavBar from "./Componentes./NavBar";
-
+import NavBar from "./Componentes/NavBar";
+import ItemListContainer from "./Componentes/ItemListContainer";
 
 const App = () => {
   return (
-    <NavBar />
+    <><NavBar /><ItemListContainer /></>
   )
 }
 
