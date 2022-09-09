@@ -14,7 +14,7 @@ const NavBar = () => {
         <body class="body">
             <header>
                 <img src={logo} alt="logo" />
-                <h1>skate shop</h1>
+                <h1 class="titulo__h1">skate shop</h1>
                 <nav>
                     {headers.map(header => <a key={header.id} href={header.href}>{header.name}</a>)}
                 </nav>
