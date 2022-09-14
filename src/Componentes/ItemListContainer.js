@@ -1,4 +1,7 @@
 import "./ItemListContainer.css"
+import logo_skate_shop from "../img/Skate_shop.jpg"
+import logo_tabla_skate_shop from "../img/Tabla_skate_shop.jpg"
+
 const ItemListContainer = () => {
     return (
         <main>
@@ -7,6 +10,15 @@ const ItemListContainer = () => {
                 productos que disponemos en Stock
                 aun estamos en desarollo , constultas que tengan pueden ir a contacto dejar sus datos y nos contactaremos a
                 la brevedad gracias</h2>
+            <div class="div__main">
+                <img src={logo_skate_shop} alt="logo_skate_shop" class="imagen_ilustrativa" />
+                <h3 class="caja__texto text-center">
+                    Nos presentamos , somos un skate shop ubicado en campana buscamos lo mejor en precio
+                    calidad
+                    simpre serle fiel al cliente y dar soporte en cualquier ambiete relacionado a este deporte que tanto
+                    amamos </h3>
+                <img src={logo_tabla_skate_shop} alt="logo2" class="imagen_ilustrativa" />
+            </div>
         </main>
     )
 }

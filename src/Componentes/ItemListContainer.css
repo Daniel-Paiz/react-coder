@@ -4,8 +4,28 @@
     justify-content: center;
     text-shadow: 11px 7px 4px rgba(0, 0, 0, 0.8);
 }
+
 .h2__index {
     text-align: center;
     color: black;
     font-size: 14px;
+}
+
+.div__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen_ilustrativa {
+    width: 70%;
+    height: auto;
+}
+
+.caja__texto {
+    border: solid 1px;
+    background-color: #fcdc3c;
+    width: 75%;
+    align-items: center;
+    margin: 8px;
 }
