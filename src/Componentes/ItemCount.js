@@ -1,6 +1,6 @@
-import { useState } from "react"
-import Swal from 'sweetalert2/dist/sweetalert2.js'
-import "./ItemCount.css"
+import { useState } from "react";
+import Swal from 'sweetalert2';
+import "./ItemCount.css";
 
 const Itemcount = ({ stock }) => {
     const [contador, setcontador] = useState(0);
@@ -13,7 +13,7 @@ const Itemcount = ({ stock }) => {
     const reset = () => {
         setcontador(0);
     }
-    const compra = () => {
+    const onAdd = () => {
         const swalWithBootstrapButtons = Swal.mixin({
             customClass: {
                 confirmButton: 'btn btn-success',
@@ -24,7 +24,7 @@ const Itemcount = ({ stock }) => {
 
         swalWithBootstrapButtons.fire({
             title: 'estas seguro/a?',
-            text: "una vez confirmada la compra sola tendras 24 hs para canselar ",
+            text: "una vez confirmada la compra sola tendras 24 hs para cancelar ",
             icon: 'warning',
             showCancelButton: true,
             confirmButtonText: 'si estoy seguro/a!',
@@ -56,7 +56,7 @@ const Itemcount = ({ stock }) => {
                 <button class="botones_carrito" onClick={sumar}>Sumar producto</button>
                 <button class="botones_carrito" onClick={restar}>Restar producto</button>
                 <button class="botones_carrito" onClick={reset}>Vaciar carrito</button>
-                <button class="botones_carrito" onClick={compra}>comprar</button>
+                <button class="botones_carrito" onClick={onAdd}>comprar</button>
             </div>
         </>
     )
