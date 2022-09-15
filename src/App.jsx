@@ -7,7 +7,7 @@ const App = () => {
     <>
       <NavBar />
       <ItemListContainer />
-      <Itemcount stock={10} />
+      {/* <Itemcount stock={10} /> */}
     </>
   )
 }

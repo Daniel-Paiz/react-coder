@@ -1,6 +1,7 @@
 import "./ItemListContainer.css"
 import logo_skate_shop from "../img/Skate_shop.jpg"
 import logo_tabla_skate_shop from "../img/Tabla_skate_shop.jpg"
+import ItemListProduct from "./ItemListProduct"
 
 const ItemListContainer = () => {
     return (
@@ -18,6 +19,9 @@ const ItemListContainer = () => {
                     simpre serle fiel al cliente y dar soporte en cualquier ambiete relacionado a este deporte que tanto
                     amamos </h3>
                 <img src={logo_tabla_skate_shop} alt="logo2" class="imagen_ilustrativa" />
+                <section>
+                    <ItemListProduct />
+                </section>
             </div>
         </main>
     )
