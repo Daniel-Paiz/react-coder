@@ -17,8 +17,8 @@ const NavBar = () => {
                 <h1 class="titulo__h1">skate shop</h1>
                 <nav>
                     {headers.map(header => <a key={header.id} href={header.href}>{header.name}</a>)}
+                    <CartWidget />
                 </nav>
-                <CartWidget />
             </header>
         </body>
     )

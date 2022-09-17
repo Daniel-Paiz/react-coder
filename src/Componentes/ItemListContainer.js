@@ -19,9 +19,8 @@ const ItemListContainer = () => {
                     simpre serle fiel al cliente y dar soporte en cualquier ambiete relacionado a este deporte que tanto
                     amamos </h3>
                 <img src={logo_tabla_skate_shop} alt="logo2" class="imagen_ilustrativa" />
-                <section>
-                    <ItemListProduct />
-                </section>
+                <h2 class="titulo__h1">Tablas</h2>
+                <ItemListProduct />
             </div>
         </main>
     )

@@ -8,7 +8,9 @@ header {
     align-items: center;
     background: linear-gradient(90deg, rgba(0, 224, 207, 0.45702030812324934) 0%, rgba(0, 212, 255, 0.8547794117647058) 51%, rgba(0, 241, 255, 1) 100%);
     border: solid 1px;
-
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 img {

@@ -1,3 +1,7 @@
+main {
+    padding-top: 190px;
+}
+
 .titulo__h1 {
     text-align: center;
     font-size: 42px;
@@ -28,8 +32,4 @@
     width: 75%;
     align-items: center;
     margin: 8px;
-}
-.CardsItem{
-    display: inline-block;
-
 }
