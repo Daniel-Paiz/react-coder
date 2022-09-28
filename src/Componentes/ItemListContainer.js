@@ -2,8 +2,10 @@ import "./ItemListContainer.css"
 import logo_skate_shop from "../img/Skate_shop.jpg"
 import logo_tabla_skate_shop from "../img/Tabla_skate_shop.jpg"
 import ItemListProduct from "./ItemListProduct"
+import { useParams } from "react-router-dom"
 
 const ItemListContainer = () => {
+    let { IdVistas } = useParams();
     return (
         <main>
             <h1 class="titulo__h1">CAMPANA SKATE SHOP</h1>
@@ -20,7 +22,7 @@ const ItemListContainer = () => {
                     amamos </h3>
                 <img src={logo_tabla_skate_shop} alt="logo2" class="imagen_ilustrativa" />
                 <h2 class="titulo__h1">Tablas</h2>
-                <ItemListProduct />
+                    <ItemListProduct />
             </div>
         </main>
     )

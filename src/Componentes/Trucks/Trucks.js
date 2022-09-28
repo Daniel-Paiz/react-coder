@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
+
+
 const Trucks = [
     {
         id: 7,
@@ -11,10 +13,9 @@ const Trucks = [
         nombre: "independent hollow",
         stock: 15,
         price: 3500,
-        imagen: IndependentHollow
+        imagen: IndependentHollow,
     }
-]
-
+];
 function ItemDetailContainerTrucks() {
     return (
         <section class="cards_item" >
