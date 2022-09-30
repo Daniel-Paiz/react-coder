@@ -1,7 +1,6 @@
 import './App.css';
 import NavBar from "./Componentes/NavBar";
 import ItemListContainer from "./Componentes/ItemListContainer";
-// import Itemcount from "./Componentes/ItemCount";
 import ItemDetailContainer from './Componentes/ItemDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Cart } from './Componentes/Cart';
@@ -18,7 +17,6 @@ const App = () => {
           <Route path='/header/:IdVistas' element={<ItemListContainer />} />
           <Route path='/Trucks/:IdTruck' element={<ItemDetailContainer />} />
           <Route path='/Carrito' element={<Cart />} />
-          {/* <Itemcount /> */}
         </Routes>
       </BrowserRouter>
     </>

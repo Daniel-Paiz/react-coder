@@ -18,7 +18,7 @@ const Trucks = [
 ];
 function ItemDetailContainerTrucks() {
     return (
-        <section class="cards_item" >
+        <section className="cards_item" >
             {Trucks.map((truck) => (<Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={truck.imagen} />
                 <Card.Body>
